@@ -22,8 +22,9 @@ If your terminal supports ANSI colors, execute the command below to check out th
 Colors and effects can be chained, and added in any order. You can specify one foreground color and one background color (setting a new value will overwrite the previous one). Effects like bold and underline, on the other hand, combine together.
 
 === Supported Values
-  * Colors: `:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white`
-  * Effects: `:bold, :underline, :blink, :reverse, :concealed`
+
+* Colors: <tt>[:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white]</tt>
+* Effects: <tt>[:bold, :underline, :blink, :reverse, :concealed]</tt>
 
 == License
 
