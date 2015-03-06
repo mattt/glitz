@@ -19,7 +19,7 @@ module Glitz
   }
 
   def self.included(klass)
-    String.instance_eval do 
+    String.instance_eval do
       extend ClassMethods
       include InstanceMethods
     end
@@ -63,7 +63,7 @@ module Glitz
 
   class ColoredString
     include InstanceMethods
-    
+
     def initialize(string)
       @string = string
       @effects = []
