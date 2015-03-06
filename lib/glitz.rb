@@ -1,3 +1,5 @@
+require 'glitz/version'
+
 module Glitz
   COLORS = {
     :black      => 0,
